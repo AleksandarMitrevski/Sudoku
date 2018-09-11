@@ -1,0 +1,14 @@
+[package]
+name = "sudoku"
+version = "1.0.0"
+authors = ["Aleksandar Mitrevski <30227718+AleksandarMitrevski@users.noreply.github.com>"]
+
+[dependencies]
+rand = "0.5.5"
+
+[dependencies.conrod]
+version = "0.61.1"
+features = ["winit", "glium"]
+
+[dependencies.conrod_derive]
+version = "0.1.2"
